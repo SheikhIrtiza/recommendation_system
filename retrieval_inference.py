@@ -9,7 +9,7 @@ import tensorflow as tf
 import numpy as np
 
 # Load the ranking model from the saved_model directory
-ranking_model = tf.saved_model.load('retrieval')
+ranking_model = tf.saved_model.load('retrieval_model_weights.h5')
 
 # Check if the model loaded successfully
 try:
